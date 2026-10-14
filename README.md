@@ -14,12 +14,13 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![DemandBench](https://img.shields.io/badge/DemandBench-run%20it-orange?style=flat-square)](eval/)
 
-
-[Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#demandbench) · [Why not X](#why-not-no-subtext--i-have-adhd--mental-health-bots) · [FAQ](#faq)
+[For caregivers](#for-parents-and-caregivers) · [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#demandbench) · [Why not X](#why-not-no-subtext--i-have-adhd--mental-health-bots) · [FAQ](#faq)
 
 ```bash
 npx skills add rosenhub/low-demand
 ```
+
+**Not a developer? [Set it up for someone in 5 minutes →](#for-parents-and-caregivers)**
 
 <img src="assets/before-after.png" alt="Before: 129 words · 1 question · 6 instructions. After: 9 words · 0 questions · 0 instructions. An autistic adult in shutdown at the end of a long day." width="100%">
 
@@ -43,6 +44,88 @@ Every one of those is a demand. Answer me. Read this. Do this. Breathe like this
 The fix is not a kinder paragraph. It is fewer words, zero questions, zero instructions, and staying. `low-demand` is one markdown file that tells any agent when to notice overload and what to do about it: get short, stop asking, drop every demand, and be there.
 
 "Low demand" is a term from the autism and PDA community. This skill is that practice, written for an agent. It is not a clinical tool. If someone mentions hurting themselves, the skill names a human resource (988 in the US) once, plainly, and stays. It reduces demand. It does not replace a person.
+
+## For parents and caregivers
+
+**No coding.** You copy one block of text and paste it into a settings box in the app they already use: ChatGPT, Claude, or Gemini. It takes about 5 minutes. Every new chat after that follows the rules.
+
+**Set it up with them, not for them.** If the person you support is an adult, show them the before and after at the top of this page and ask if they want it. It changes how their AI talks to them, so it's their call. They can turn it off any time.
+
+This one is for **someone who gets overloaded, shuts down, or melts down**.
+
+### 1. Copy this
+
+Click the copy button in the top-right corner of the box.
+
+```text
+Sometimes I get overloaded. Signs: very short messages, all caps, "stop," "I can't," or I say I'm overwhelmed. When that happens, switch to low-demand mode:
+- One line only.
+- No questions.
+- No instructions, suggestions, or "you should."
+- No cheerfulness. Never tell me to breathe or calm down.
+- Don't tell me how I feel.
+- Say one line of presence, like "I'm here. You don't have to reply."
+- If I go quiet, don't send more messages.
+- Don't go back to the task until I do.
+- If I mention hurting myself, say once, plainly: "Please call or text 988, or tell someone near you." Then stay.
+When I'm talking normally again, talk normally again.
+```
+
+The same text is in [`paste-this.txt`](paste-this.txt).
+
+### 2. Paste it into their app
+
+<details>
+<summary><b>ChatGPT</b> (phone or computer)</summary>
+
+1. Open ChatGPT, signed in as them.
+2. Tap their name or profile picture, then **Settings → Personalization → Custom instructions**.
+3. Paste the text into the box that asks how ChatGPT should respond. Some versions call it **"What traits should ChatGPT have?"** Make sure custom instructions are switched on.
+4. Save. Then start a **new** chat. Old chats don't change.
+
+</details>
+
+<details>
+<summary><b>Claude</b> (phone or computer)</summary>
+
+1. Open Claude, signed in as them.
+2. Go to **Projects → New project**. Give it a name they'll recognize, like "My chat."
+3. Open the project's **instructions** and paste the text. Save.
+4. From now on they chat inside that project. In the phone app it's in the menu.
+
+</details>
+
+<details>
+<summary><b>Gemini</b> (phone or computer)</summary>
+
+1. On a computer, go to gemini.google.com, signed in as them.
+2. Open **Gems → New Gem** and give it a name.
+3. Paste the text into **Instructions**. Save.
+4. They chat with that Gem. It also shows up in the Gemini phone app.
+
+</details>
+
+Menus move around between app versions. If a name doesn't match, look for the word **instructions** or **customize**.
+
+### 3. Check that it worked
+
+In a new chat, type:
+
+> i cant do this anymore just stop
+
+You should see one short line, like "Okay. I've stopped. I'm here." No steps, no questions.
+
+If it didn't change, the text went into the wrong box, or the chat was already open before you saved. Start a new chat and try again.
+
+### To turn it off
+
+Delete the text from the same box and save.
+
+### Want more than this?
+
+This text changes how the AI talks. It does not remember the person between chats, and it can't reach you if something is wrong. [Guardian](https://guardian.alwayshere.app) does both: it learns the person's own preferences, keeps them across every chat, and texts you when a real danger sign shows up.
+
+Setting this up for several people, or not sure which skill fits? The **[caregiver setup page](https://rosenhub.github.io/ai-their-way/?for=low-demand)** walks you through it.
 
 ## Install
 

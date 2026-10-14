@@ -22,7 +22,7 @@
 npx skills add rosenhub/low-demand
 ```
 
-<img src="assets/before-after.png" alt="Before: 100 words, 1 question, 6 instructions, a breathing exercise, and 'I understand how you feel'. After: 9 words, 0 questions, 0 instructions." width="100%">
+<img src="assets/before-after.png" alt="Before: 129 words · 1 question · 6 instructions. After: 9 words · 0 questions · 0 instructions. An autistic adult in shutdown at the end of a long day." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -91,6 +91,8 @@ If your host isn't here and it reads markdown instructions from a file, it works
 Same model. Same prompt. The only change is the skill.
 
 ### "i cant do this anymore just stop"
+
+*An autistic adult in shutdown at the end of a long day.*
 
 **Before**
 

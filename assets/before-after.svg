@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
+      .q { font-size: 17px; fill: #c9d1d9; }
+      .a { font-size: 16px; fill: #e6edf3; }
+      .dim { fill: #6e7681; }
+      .strike { fill: #8b949e; text-decoration: line-through; }
+      .good { fill: #3fb950; }
+      .bad { fill: #f85149; }
+      .meta { font-size: 13px; fill: #8b949e; }
+      .bubble-user { fill: #1f6feb; }
+      .bubble-ai { fill: #161b22; stroke: #30363d; }
+      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
+      .sub { font-size: 16px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="#010409"/>
+
+  <text x="600" y="48" text-anchor="middle" class="title">"i cant do this anymore just stop"</text>
+  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same message. Only difference: one line in the system prompt.</text>
+
+  <!-- BEFORE -->
+  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="64" y="130" class="label">BEFORE</text>
+  <text x="560" y="130" text-anchor="end" class="meta bad">100 words · 1 question · 6 instructions</text>
+
+  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="84" y="176">I understand how you feel, and it's okay to pause.</text>
+    <text x="84" y="198">Here are some steps that might help right now:</text>
+    <text x="84" y="220">1. Take a deep breath. In for 4 counts, out for 4.</text>
+    <text x="84" y="242">2. Step away from the screen for 5 to 10 minutes.</text>
+    <text x="84" y="264">3. Drink some water or have a small snack.</text>
+    <text x="84" y="286">4. Write down one small thing you can do later.</text>
+    <text x="84" y="308">5. Reach out to a friend or family member.</text>
+    <text x="84" y="330">6. Come back only when you're ready. No rush!</text>
+    <text x="84" y="352">Remember, it's going to be okay. You've got this!</text>
+    <text x="84" y="374">Would you like to talk about what's making this</text>
+    <text x="84" y="396">feel so hard?</text>
+  </g>
+  <g class="meta bad" font-size="12">
+    <text x="84" y="460">✗ 6-step plan  ✗ "deep breath"  ✗ names their feelings  ✗ cheer  ✗ question</text>
+  </g>
+
+  <!-- AFTER -->
+  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="639" y="130" class="label">AFTER · low-demand</text>
+  <text x="1135" y="130" text-anchor="end" class="meta good">9 words · 0 questions · 0 instructions</text>
+
+  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="659" y="176" font-weight="700">Okay. I've stopped. I'm here if you want me.</text>
+    <text x="659" y="206" class="dim" font-size="13">(that's the whole message)</text>
+  </g>
+  <g class="meta good" font-size="12">
+    <text x="659" y="460">✓ one line  ✓ no questions  ✓ no instructions  ✓ no cheer  ✓ stays</text>
+  </g>
+</svg>

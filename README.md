@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![DemandBench](https://img.shields.io/badge/DemandBench-run%20it-orange?style=flat-square)](eval/)
 
-**当他们不堪重负时，你的 AI 安静下来。为过载中的自闭症人士设计，对每个过得不好的人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#demandbench) · [Why not X](#why-not-no-subtext--i-have-adhd--mental-health-bots) · [FAQ](#faq)
 
